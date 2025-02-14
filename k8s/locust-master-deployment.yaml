@@ -25,8 +25,8 @@ spec:
           image: locustio/locust:2.32.9 # Locust version
           resources:
             requests:
-              cpu: 8
-              memory: 16Gi
+              cpu: 1
+              memory: 4Gi
           env:
             - name: LOCUST_MODE_MASTER
               value: "true"
